@@ -128,7 +128,16 @@
       text-decoration: none;
       font-weight: bold;
     }
-
+    .headshot {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 24px;
+      border: 4px solid white;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    }
     footer {
       text-align: center;
       padding: 30px 0 60px;
@@ -150,6 +159,7 @@
 <body>
   <div class="container">
     <header>
+      <img src="headshot.jpg" alt="Jacobo Pereira-Pacheco headshot" class="headshot" />
       <h1>Jacobo Pereira-Pacheco</h1>
       <p class="subtitle">
         I’m a statistician, researcher, and data visualization enthusiast sharing my work, projects,
